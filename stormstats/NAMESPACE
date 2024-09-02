@@ -1,0 +1,7 @@
+export("base_hydrograph", "BFI","plotBase", "plotStorm", 
+       "update_hydrograph", "update_base_hygh","hydrograph")
+importFrom("stats", "approx", "na.omit", "quantile", "sd",
+           "weighted.mean")
+import(zoo)
+import(xts)
+import(dygraphs)
